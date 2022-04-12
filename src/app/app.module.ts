@@ -5,16 +5,20 @@ import { AppRoutingModule } from './app-routing/app-routing.module';
 import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 import { UserComponent } from './component/user/user.component';
+import { ClimaComponent } from './components/clima/clima.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
     AppComponent,
-    UserComponent
+    UserComponent,
+    ClimaComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

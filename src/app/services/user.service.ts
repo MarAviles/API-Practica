@@ -9,8 +9,6 @@ export class UserService {
 
   url: string = "https://randomuser.me/api";
 
- 
-
   constructor(private HttpClient: HttpClient) { }
 
   conseguirUsuario(){

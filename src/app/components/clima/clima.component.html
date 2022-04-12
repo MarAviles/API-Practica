@@ -1,0 +1,21 @@
+<div class="contenedor">
+    <div class="contenido">
+        <div class="buscador">
+            <form id="buscador" [formGroup]="buscador" (ngSubmit)="buscar()">
+                <label>Ingresa un país: </label><br>
+                <input type="text" formControlName="country" value="London">
+                <button type="submit">Buscar</button>
+            </form>
+        </div>
+
+        <div id="card">
+            <h3>País: {{pais}}</h3>
+            <p>Temperatura: {{temperatura}}</p>
+            <p>{{description}}</p>
+        </div>
+    
+        <div id="button">
+            <button [routerLink]="['/usuarios']">Regresar a Usuarios</button>
+        </div>
+    </div>     
+</div>
