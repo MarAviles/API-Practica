@@ -1,0 +1,16 @@
+#principal {
+    text-align: center;
+}
+
+#card {
+    background-color: antiquewhite;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+#button {
+    margin-top: 30px;
+}
